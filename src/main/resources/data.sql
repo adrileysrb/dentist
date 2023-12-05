@@ -1,0 +1,3 @@
+-- -- Inserir um usuário comum
+INSERT INTO t_user (id, user_id, first_name, last_name, username, password, email, profile_image_url, last_login_date, last_login_date_display, join_date, role, authorities, is_active, is_not_locked)
+VALUES (99, 'user1', 'John', 'Doe', 'john_doe', '$2a$10$uVzA1Pb3DJJGW4j/k5eqDedUQ5NeEwI2/zP6cVkF26Ck4/wYKTtaW', 'john.doe@email.com', 'https://example.com/john_doe.jpg', '2023-01-01', '2023-01-01', '2023-01-01', 'ROLE_USER', 'read,edit', true, true);
